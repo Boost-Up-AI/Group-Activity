@@ -2,7 +2,7 @@
 
 - 알고리즘 코드 리뷰
 - BFS
-    - 구슬 탈출4: [https://www.acmicpc.net/problem/15653](https://www.acmicpc.net/problem/15653)
+    - 구슬 탈출4: [https://www.acmicpc.net/problem/15653](https://www.acmicpc.net/problem/15653)\
     queue에는 원소를 적게 담을수록 좋다. (메모리 초과 주의)
     처음에 R,B의 위치를 파악한 뒤 '.'으로 바꿔주기
     move : O,#을 만날 때까지 이동하는 함수, 이 때 distance도 같이 저장하기
