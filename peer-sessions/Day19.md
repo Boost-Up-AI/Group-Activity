@@ -5,10 +5,11 @@
 하지만, pytorch가 lower-level이므로 조금 더 자유도가 높을 것이다.
 
 ### 논문 리뷰: Batch Normalization
-1. 세부적인 수식은 강의에서 설명해주므로 모두 이해하려고 부담갖지 않아도 된다. 기존 방법의 한계점, 어떤 부분을 개선하기 위해 어떤 변화를 주었는지, 어떤 식으로 활용될 수 있는지 등에 대한 이해를 목표로 하면 좋을 것 같다.
+1. 세부적인 수식은 강의에서 설명해주므로 모두 이해하려고 부담갖지 않아도 된다. 기존 방법의 한계점, 어떤 부분을 개선하기 위해 어떤 변화를 주었는지,\
+어떤 식으로 활용될 수 있는지 등에 대한 이해를 목표로 하면 좋을 것 같다.
 
 2. Batch Normalization의 성능이 잘 나오는 이유
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cea6e7d2-8dca-4253-a8d4-ba6f7906734f/_2021-02-18__4.09.50.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cea6e7d2-8dca-4253-a8d4-ba6f7906734f/_2021-02-18__4.09.50.png)
+![screenshot](./batchnorm.png) \
 
 
 3. 6p  Accelerating learning rate decay의 의미
@@ -32,8 +33,8 @@
 
 
 ### 스몰토크
-- 하이퍼커넥트 채용공고 ![https://career.hyperconnect.com/job/f2f89c67-fe43-4fbb-8df5-5a286723bfd3] (https://career.hyperconnect.com/job/f2f89c67-fe43-4fbb-8df5-5a286723bfd3) \
-채용공고에서 job description을 보면 경쟁사에게 기술스택을 노출하지 않기 위해 두루뭉술하게 나오는데
+- 하이퍼커넥트 채용공고 ![https://career.hyperconnect.com/job/f2f89c67-fe43-4fbb-8df5-5a286723bfd3] \
+채용공고에서 job description을 보면 경쟁사에게 기술스택을 노출하지 않기 위해 두루뭉술하게 나오는데 \
 여기는 매우 자세하게 나와있어 참고하면 도움이 될 것 같다.
 
 - 자신의 장점은 무엇인가? \
