@@ -8,13 +8,12 @@
 1. 세부적인 수식은 강의에서 설명해주므로 모두 이해하려고 부담갖지 않아도 된다. 기존 방법의 한계점, 어떤 부분을 개선하기 위해 어떤 변화를 주었는지,\
 어떤 식으로 활용될 수 있는지 등에 대한 이해를 목표로 하면 좋을 것 같다.
 
-2. Batch Normalization의 성능이 잘 나오는 이유
-![screenshot](./batchnorm.png) \
-
+2. Batch Normalization의 성능이 잘 나오는 이유 \
+이미지 삽입에 실패했습니다ㅜㅜ 이슈에 동현님이 공유해주신 자료를 올리겠습니다.
 
 3. 6p  Accelerating learning rate decay의 의미
 - 딥러닝 학습 시 초반에는 학습률을 높게 시작했다가 오버피팅을 방지하기 위해 점점 천천히 학습해야 하므로 학습률을 점차 줄여야 한다.
-- Batch Norm을 사용하면 학습률을 크게 설정할 수 있으므로 lr을 더 빠르게 줄일 수 있어 빠르게 수렴할 수 있다.
+- Batch Norm을 사용하면 초기 학습률을 크게 설정할 수 있으므로 사용하지 않았을 때보다 더 빠르게 같은 lr로 줄일 수 있다.
 
 4. 반박논문: How Does Batch Normalization Help Optimization? (2018)
 - Batch norm을 사용했을 때 ICS가 커지는 실험을 근거로 반박함. 성능을 올릴 수 있었던 내부적인 요인은 loss smoothing이다.
@@ -33,7 +32,7 @@
 
 
 ### 스몰토크
-- 하이퍼커넥트 채용공고 ![https://career.hyperconnect.com/job/f2f89c67-fe43-4fbb-8df5-5a286723bfd3] \
+- 하이퍼커넥트 채용공고 https://career.hyperconnect.com/job/f2f89c67-fe43-4fbb-8df5-5a286723bfd3 \
 채용공고에서 job description을 보면 경쟁사에게 기술스택을 노출하지 않기 위해 두루뭉술하게 나오는데 \
 여기는 매우 자세하게 나와있어 참고하면 도움이 될 것 같다.
 
