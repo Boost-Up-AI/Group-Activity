@@ -9,7 +9,8 @@
 어떤 식으로 활용될 수 있는지 등에 대한 이해를 목표로 하면 좋을 것 같다.
 
 2. Batch Normalization의 성능이 잘 나오는 이유 \
-이미지 삽입에 실패했습니다ㅜㅜ 이슈에 동현님이 공유해주신 자료를 올리겠습니다.
+![](https://user-images.githubusercontent.com/76163168/108344210-347c1880-7220-11eb-8498-b99c2be03e1e.png)
+
 
 3. 6p  Accelerating learning rate decay의 의미
 - 딥러닝 학습 시 초반에는 학습률을 높게 시작했다가 오버피팅을 방지하기 위해 점점 천천히 학습해야 하므로 학습률을 점차 줄여야 한다.
