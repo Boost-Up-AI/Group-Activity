@@ -26,8 +26,7 @@ A.  Validation dataset과 test dataset 모두 모델 학습에 사용되지 않�
 # local minimum
 
 - 대부분 loss func은 non-convex하다. 즉, 현실에서는 단순히 2차 함수라고 단언할 수 없다. 따라서 global minimum을 찾으면 좋겠지만, 대부분은 local minimum에 머물게 된다. 그리고 global minimum이 무엇인지를 정의하지 못한 상태에서, 현재가 global minimum이다라고 확언할 수도 없는 상태. loss는 대부분 local minimum이라고 판단한다.
-* lr 적절히 설정하는 것이 중요 : 보통은 lr을 크게 잡고 시작해 1 epoch 돌때마다 lr을 감소시켜 준다. lr을 너무 작게 잡아도 local minimum을 벗어날 수 없고, 너무 커도 
-*  따라서 중요한 건 lr이 너무 커도, 너무 작아도 안된다는 것이다. lr이 너무 작으면 local minimum을 벗어날 수 없고, lr을 너무 크게 잡아도 drastic updates에 따라 loss가 증가해 값이 발산될 수도
+* lr 적절히 설정하는 것이 중요 : 보통은 lr을 크게 잡고 시작해 1 epoch 돌때마다 lr을 감소시켜 준다. lr이 너무 작으면 local minimum을 벗어날 수 없고, lr을 너무 크게 잡아도 drastic updates에 따라 loss가 증가해 값이 발산될 수도
 
 # CNN 
 
